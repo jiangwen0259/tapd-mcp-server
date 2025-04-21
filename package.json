@@ -1,0 +1,20 @@
+{
+  "name": "tapd-bug-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.17"
+  }
+}
